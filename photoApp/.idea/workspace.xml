@@ -5,35 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27604ea2-269b-467c-9390-e628988a2119" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/photoApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shshetudev/accounts/controller/AccountsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discoveryService/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/WebSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/data/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/data/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/shared/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/ui/model/CreateUserRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/ui/model/CreateUserResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/ui/model/LoginRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Terminology.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectStory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiGateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/users/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/data/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +120,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -145,6 +132,9 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/discoveryService/src/main/resources" />
     </key>
@@ -244,7 +234,7 @@
       <workItem from="1648098338730" duration="6729000" />
       <workItem from="1648105415229" duration="7614000" />
       <workItem from="1648120657887" duration="32000" />
-      <workItem from="1648600130285" duration="17482000" />
+      <workItem from="1648600130285" duration="28201000" />
     </task>
     <servers />
   </component>
@@ -261,6 +251,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

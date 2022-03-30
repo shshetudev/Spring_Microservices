@@ -74,4 +74,3 @@ In the header we should add:
 
 ## Zuul As a load balancer
 * Zuul works as router and server side load balancer.
-* 

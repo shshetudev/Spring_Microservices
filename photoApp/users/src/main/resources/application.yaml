@@ -32,3 +32,11 @@ eureka:
 # Custom properties
 gateway:
   ip: 192.168.31.186
+
+token:
+  expiration_time: 860000000 # in ms, 10 days
+  secret: dsfdsfewewfewfewfgewge5548484
+
+login:
+  url:
+    path: /users/login

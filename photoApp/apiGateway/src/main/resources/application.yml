@@ -30,3 +30,27 @@ spring:
 #          uri: http://localhost:8030
 #          predicates:
 #            - Path=/accounts/**
+
+# Custom property
+api:
+
+  login:
+    url:
+      path: /user-service/users/login
+
+  h2console:
+    url:
+      path: /user-service/h2-console/**
+
+  registration:
+    url:
+      path: /user-service/users
+
+authorization:
+  token:
+    header:
+      prefix: Bearer
+      name: Authorization
+
+token:
+  secret: dsfdsfewewfewfewfgewge5548484

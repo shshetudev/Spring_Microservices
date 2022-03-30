@@ -5,9 +5,13 @@ import com.shshetudev.api.users.data.UserRepository;
 import com.shshetudev.api.users.shared.UserDto;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.UUID;
 
 @Service
@@ -29,6 +33,24 @@ public class UsersServiceImpl implements UsersService{
         return toUserDto(repository.save(userEntity));
     }
 
+    @Override
+    public UserDto getUserDetailsByEmail(String email) {
+        UserEntity user = repository.findByEmail(email);
+        if(user == null) {
+            throw new UsernameNotFoundException(email);
+        }
+       return toUserDto(user);
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        UserEntity user = repository.findByEmail(username);
+        if(user == null) {
+            throw new UsernameNotFoundException(username);
+        }
+        return new User(user.getEmail(), user.getEncryptedPassword(), true, true, true, true, new ArrayList<>());
+    }
+
     //todo: Optimize these
     //***************************************
     // Utility methods:
@@ -44,4 +66,5 @@ public class UsersServiceImpl implements UsersService{
         mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT); // Matching strategy is strict
         return mapper.map(userDetails, UserDto.class);
     }
+
 }
