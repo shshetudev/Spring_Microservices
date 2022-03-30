@@ -1,0 +1,16 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: discoveryService
+
+# Prevent this application to register with Eureka as a client
+eureka:
+  client:
+    register-with-eureka: false
+# Disable the fetch registry as a client
+    fetch-registry: false
+# Url for client application communication
+    service-url:
+      defaultZone: http://localhost:8010/eureka

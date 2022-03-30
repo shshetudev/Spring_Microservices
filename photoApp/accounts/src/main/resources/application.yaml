@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:8030}
+spring:
+  application:
+    name: account-service
+  devtools:
+    restart:
+      enabled: false
+eureka:
+#  Adding instance id
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka

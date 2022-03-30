@@ -1,0 +1,34 @@
+server:
+#  port: 0
+  port: ${PORT:8020}
+
+spring:
+  application:
+    name: user-service
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  # h2 db config
+  h2:
+    console:
+      enabled: true
+      # We want each services to access, so we are disabling firewall check.
+      settings:
+        web-allow-others: true
+
+eureka:
+  #  Adding instance id
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+   service-url:
+     defaultZone: http://localhost:8010/eureka
+
+# Custom properties
+gateway:
+  ip: 192.168.31.186

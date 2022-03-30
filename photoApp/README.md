@@ -65,3 +65,13 @@ In the header we should add:
 ## Consumes, Produces in Spring Boot controller
 * `consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_Value}`: consumes both xml and json request
 * `produces= {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_Value}`: produces both xml and json response
+
+## API Gateway
+* Handles the request from clients.
+* A popular API gateway is: Zuul API Gateway.
+* It has a built in load balancer named: Ribbon Load balancer.
+
+
+## Zuul As a load balancer
+* Zuul works as router and server side load balancer.
+* 
