@@ -74,3 +74,25 @@ In the header we should add:
 
 ## Zuul As a load balancer
 * Zuul works as router and server side load balancer.
+
+## Spring Cloud Config Server
+
+### Purpose of `application.properties`
+- Usually `application.properties` file is the place where all the configuration details are kept.
+- We also use `application.properties` file to configure urls to other microservices.
+- When we have many microservices to make a change in each of their `application.properties` file might be challenging.
+- We have to rebuild, redeploy and restart the microservices. It's ok for the monolith application, but it's challenging for microservices. 
+
+### How Spring Cloud Config Server resolves the issue
+- We keep our application configuration in central secure storage.
+- Possible options are: 
+  - Secure file system storage backend.
+  - Secure volt backend.
+  - Private git repository.
+- It's better to use private git repository. Because 
+  - We can maintain versioning.
+  - We can keep track of our configuration changes.
+- Via an `environment` object these configurations will be available to the microservices.
+- To read any configurations, we don't need to make any changes in our java code.
+- Using `http` protocol these configurations will be fetched from the cloud config server.
+- 

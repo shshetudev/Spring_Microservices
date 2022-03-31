@@ -9,8 +9,8 @@ spring:
 eureka:
   client:
     register-with-eureka: false
-# Disable the fetch registry as a client
+    # Disable the fetch registry as a client
     fetch-registry: false
-# Url for client application communication
+    # Url for client application communication
     service-url:
       defaultZone: http://localhost:8010/eureka

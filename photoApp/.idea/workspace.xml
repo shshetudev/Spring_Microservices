@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27604ea2-269b-467c-9390-e628988a2119" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiGateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terminology.md" beforeDir="false" afterPath="$PROJECT_DIR$/Terminology.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/users/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +28,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/apiGateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/configServer">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/discoveryService">
@@ -135,7 +144,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.45402297" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -164,7 +176,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.UsersApplication">
     <configuration name="apiGateway [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -242,6 +254,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configServer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shshetudev.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discoveryService.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shshetudev.discoveryservice.DiscoveryServiceApplication" />
@@ -259,12 +278,13 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.discoveryService [clean]" />
+      <item itemvalue="Gradle.apiGateway [clean]" />
+      <item itemvalue="Gradle.apiGateway [build]" />
       <item itemvalue="Spring Boot.AccountsApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.UsersApplication" />
-      <item itemvalue="Gradle.apiGateway [clean]" />
-      <item itemvalue="Gradle.apiGateway [build]" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -292,7 +312,12 @@
       <workItem from="1648600130285" duration="28334000" />
       <workItem from="1648653983179" duration="552000" />
       <workItem from="1648674414352" duration="4000" />
-      <workItem from="1648698587366" duration="4808000" />
+      <workItem from="1648698587366" duration="7229000" />
+      <workItem from="1648709317595" duration="89000" />
+      <workItem from="1648709434761" duration="4761000" />
+      <workItem from="1648717757223" duration="384000" />
+      <workItem from="1648718241147" duration="601000" />
+      <workItem from="1648733565207" duration="6657000" />
     </task>
     <servers />
   </component>
@@ -302,11 +327,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="4461f6a6-e5aa-4970-aee5-127f1e3226cd">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/media/shetu/Information/Git/Personal/My_GIT/PhotoApp/Spring_Microservices/photoApp/configServer/src/main/resources" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="4461f6a6-e5aa-4970-aee5-127f1e3226cd" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -315,8 +370,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="27" />
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

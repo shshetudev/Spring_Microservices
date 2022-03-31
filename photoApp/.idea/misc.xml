@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/accounts" />
     <file type="web" url="file://$PROJECT_DIR$/apiGateway" />
+    <file type="web" url="file://$PROJECT_DIR$/configServer" />
     <file type="web" url="file://$PROJECT_DIR$/discoveryService" />
     <file type="web" url="file://$PROJECT_DIR$/users" />
   </component>

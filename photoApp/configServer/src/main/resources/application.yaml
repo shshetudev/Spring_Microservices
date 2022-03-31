@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/shahariardev/photoAppConfigServer
+          username: shahariardev
+          password: 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
+
+server:
+  port: 8012

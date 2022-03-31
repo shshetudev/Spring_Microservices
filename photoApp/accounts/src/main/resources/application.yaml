@@ -7,7 +7,7 @@ spring:
     restart:
       enabled: false
 eureka:
-#  Adding instance id
+  #  Adding instance id
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
