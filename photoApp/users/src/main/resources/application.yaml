@@ -35,7 +35,7 @@ gateway:
 
 token:
   expiration_time: 860000000 # in ms, 10 days
-  secret: dsfdsfewewfewfewfgewge5548484
+  secret: secret1234
 
 login:
   url:

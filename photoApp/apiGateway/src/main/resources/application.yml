@@ -15,7 +15,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 5000
+            timeoutInMilliseconds: 20000
 
 spring:
   application:
@@ -49,8 +49,8 @@ api:
 authorization:
   token:
     header:
-      prefix: Bearer
       name: Authorization
+      prefix: Bearer
 
 token:
-  secret: dsfdsfewewfewfewfgewge5548484
+  secret: secret1234

@@ -26,8 +26,9 @@ public class AuthorizationFilter extends BasicAuthenticationFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
         String authHeader = request.getHeader(environment.getProperty("authorization.token.header.name"));
-        if (authHeader == null || !authHeader.startsWith(Objects.requireNonNull(environment.getProperty("authorization.token.header.name")))) {
+        if (authHeader == null || !authHeader.startsWith(Objects.requireNonNull(environment.getProperty("authorization.token.header.prefix")))) {
             chain.doFilter(request, response);
+            return;
         }
         UsernamePasswordAuthenticationToken authenticationToken = getAuthentication(request);
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);

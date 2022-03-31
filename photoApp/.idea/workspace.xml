@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27604ea2-269b-467c-9390-e628988a2119" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Terminology.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectStory.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiGateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/users/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/WebSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/data/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/service/UsersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +37,28 @@
         <task path="$PROJECT_DIR$/discoveryService">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/apiGateway">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="apiGateway" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="apiGateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="apiGateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -155,7 +164,49 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UsersApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="apiGateway [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/apiGateway" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="apiGateway [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/apiGateway" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="discoveryService [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -212,9 +263,13 @@
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.UsersApplication" />
+      <item itemvalue="Gradle.apiGateway [clean]" />
+      <item itemvalue="Gradle.apiGateway [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.apiGateway [build]" />
+        <item itemvalue="Gradle.apiGateway [clean]" />
         <item itemvalue="Gradle.discoveryService [clean]" />
       </list>
     </recent_temporary>
@@ -234,7 +289,10 @@
       <workItem from="1648098338730" duration="6729000" />
       <workItem from="1648105415229" duration="7614000" />
       <workItem from="1648120657887" duration="32000" />
-      <workItem from="1648600130285" duration="28201000" />
+      <workItem from="1648600130285" duration="28334000" />
+      <workItem from="1648653983179" duration="552000" />
+      <workItem from="1648674414352" duration="4000" />
+      <workItem from="1648698587366" duration="4808000" />
     </task>
     <servers />
   </component>
@@ -256,14 +314,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/apiGateway/src/main/java/com/shshetudev/apigateway/security/AuthorizationFilter.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/users/src/main/java/com/shshetudev/api/users/configuration/security/AuthenticationFilter.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
