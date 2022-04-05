@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      name: config-server
+      uri: http://localhost:8012
+      label: main

@@ -95,4 +95,15 @@ In the header we should add:
 - Via an `environment` object these configurations will be available to the microservices.
 - To read any configurations, we don't need to make any changes in our java code.
 - Using `http` protocol these configurations will be fetched from the cloud config server.
-- 
+
+## Spring Cloud Bus (Dynamic configuration update)
+- Microservices fetch  configuration properties only once, and they do it at startup time. So without restarting we won't get the latest changes from spring cloud config server.
+- Spring cloud Bus helps us to push the configurations while microservices are running. And they don't need to be restarted.
+- Here microservices will be treated as subscribers, and the protocol used is known as AMQP (Advanced Message Queuing Protocol).
+- Spring cloud bus will broadcast configuration changes to all of our microservices.
+- There is a message broker that will also need to be configured and it's called Rabbit MQ.
+
+## Rabbit MQ
+- Messaging Broker.
+- It is an intermediary for messaging.
+- It gives applications a common platform to send and receive messages and for messages a safe place to live until they are received.
