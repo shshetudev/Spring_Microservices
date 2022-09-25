@@ -8,7 +8,16 @@ spring:
           clone-on-start: true
           uri: https://github.com/shahariardev/photoAppConfigServer
           username: shahariardev
-          password: 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
+          password: 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
 
 server:
   port: 8012
+
+# Sends Http post req to an actuator: /bus-refresh. It also broadcasts to all subscribers.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+# Rabbit mq
