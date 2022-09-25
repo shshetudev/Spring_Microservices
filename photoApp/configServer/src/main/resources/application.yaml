@@ -8,7 +8,7 @@ spring:
           clone-on-start: true
           uri: https://github.com/shahariardev/photoAppConfigServer
           username: shahariardev
-          password: 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
+          password: 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
 
 server:
   port: 8012
